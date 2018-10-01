@@ -36,7 +36,7 @@
 
 - (NSAppleEventDescriptor *)executeSource:(NSString *)scriptId
 {
-    NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"applescript"];
+    NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"ascript"];
     if(!url)
         return nil;
     NSString *source = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:NULL];
@@ -56,7 +56,8 @@
 	NSAppleScript* applescript = [scripts objectForKey:scriptId];
 	if (nil == applescript) 
     {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"applescript"];
+        NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"ascript"];
+
         if(!url)
             return nil;
 
@@ -86,7 +87,7 @@
     NSError *error = nil;
 	if (nil == scriptText) 
     {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"applescript"];
+        NSURL *url = [[NSBundle mainBundle] URLForResource:scriptId withExtension:@"ascript"];
         
 		scriptText = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
 		[scripts setObject:scriptText forKey:scriptId];
@@ -107,7 +108,7 @@
 	NSString* scriptText = [scripts objectForKey:scriptId];
 	if (nil == scriptText)
     {
-		NSString* scriptFileName = [[NSBundle mainBundle] pathForResource: scriptId ofType: @"applescript"];
+		NSString* scriptFileName = [[NSBundle mainBundle] pathForResource: scriptId ofType: @"ascript"];
         NSError *error;
 		scriptText = [[NSString alloc] initWithContentsOfURL:[NSURL fileURLWithPath: scriptFileName] encoding:NSUTF8StringEncoding error:&error];
 		[scripts setObject:scriptText forKey:scriptId];
@@ -115,7 +116,7 @@
         
     for(NSString *parameter in parameters)
     {
-        NSRange range = [scriptText rangeOfString:@"¡"];
+        NSRange range = [scriptText rangeOfString:@"✅"];
         scriptText = [scriptText stringByReplacingCharactersInRange:range withString:parameter];
     }
     

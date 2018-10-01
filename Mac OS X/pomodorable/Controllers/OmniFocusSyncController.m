@@ -24,8 +24,8 @@
 
 - (BOOL)sync
 {
-    NSArray *runningApps1 = [NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.omnigroup.OmniFocus2"];
-    NSArray *runningApps2 = [NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.omnigroup.OmniFocus2.MacAppStore"];
+    NSArray *runningApps1 = [NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.omnigroup.OmniFocus3"];
+    NSArray *runningApps2 = [NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.omnigroup.OmniFocus3.MacAppStore"];
     
     if ([runningApps1 count] == 0 && [runningApps2 count] == 0)
         return NO;
@@ -120,12 +120,12 @@
     NSString *statusString = (activity.completed || [activity.removed boolValue]) ? @"true" : @"false";
     NSString *activityID = [activity.sourceID copy];
     NSString *nameString = activity.name;
-    [[ScriptManager sharedManager] executeScript:scriptName withParameters:[NSArray arrayWithObjects:activityID, statusString, nameString, nil]];
+    [[ScriptManager sharedManager] executeScript:scriptName withParameters:[NSArray arrayWithObjects:activityID,  nameString, activityID, statusString, nil]];
 }
 
 - (NSString *)appID
 {
-    return @"com.omnigroup.OmniFocus2";
+    return @"com.omnigroup.OmniFocus3";
 }
 
 @end

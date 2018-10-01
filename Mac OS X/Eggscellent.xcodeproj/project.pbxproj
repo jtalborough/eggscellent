@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00861CC92161F504002CC518 /* TaskPaperGetTodos.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBA2161F503002CC518 /* TaskPaperGetTodos.ascript */; };
+		00861CCA2161F504002CC518 /* ThingsAddTodo.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBB2161F503002CC518 /* ThingsAddTodo.ascript */; };
+		00861CCB2161F504002CC518 /* OmniFocusChangeTodob.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBC2161F503002CC518 /* OmniFocusChangeTodob.ascript */; };
+		00861CCC2161F504002CC518 /* OmniFocusGetTaskContext.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBD2161F503002CC518 /* OmniFocusGetTaskContext.ascript */; };
+		00861CCD2161F504002CC518 /* SkypeSetStatusBusy.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBE2161F503002CC518 /* SkypeSetStatusBusy.ascript */; };
+		00861CCE2161F504002CC518 /* SkypeSetStatusAvailable.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CBF2161F503002CC518 /* SkypeSetStatusAvailable.ascript */; };
+		00861CCF2161F504002CC518 /* AdiumSetStatusBusy.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC02161F503002CC518 /* AdiumSetStatusBusy.ascript */; };
+		00861CD02161F504002CC518 /* OmniFocusChangeTodo.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC12161F503002CC518 /* OmniFocusChangeTodo.ascript */; };
+		00861CD12161F504002CC518 /* iChatSetStatusBusy.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC22161F503002CC518 /* iChatSetStatusBusy.ascript */; };
+		00861CD22161F504002CC518 /* ThingsGetTodos.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC32161F503002CC518 /* ThingsGetTodos.ascript */; };
+		00861CD32161F504002CC518 /* OmniFocusGetTodos.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC42161F503002CC518 /* OmniFocusGetTodos.ascript */; };
+		00861CD42161F504002CC518 /* OmniFocusAddTodos.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC52161F503002CC518 /* OmniFocusAddTodos.ascript */; };
+		00861CD52161F504002CC518 /* ThingsChangeTodo.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC62161F503002CC518 /* ThingsChangeTodo.ascript */; };
+		00861CD62161F504002CC518 /* iChatSetStatusAvailable.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC72161F503002CC518 /* iChatSetStatusAvailable.ascript */; };
+		00861CD72161F504002CC518 /* AdiumSetStatusAvailable.ascript in Resources */ = {isa = PBXBuildFile; fileRef = 00861CC82161F503002CC518 /* AdiumSetStatusAvailable.ascript */; };
 		3D0FDCE916ECED5800815B2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A5B401465F38500BFD7B2 /* main.m */; };
 		3D0FDCEA16ECED5800815B2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A5B471465F38500BFD7B2 /* AppDelegate.m */; };
 		3D0FDCEB16ECED5800815B2C /* PanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48A5B931466F68400BFD7B2 /* PanelController.m */; };
@@ -84,20 +99,6 @@
 		3D0FDD3716ECED5800815B2C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8848E1466FAFD0004DADB /* libz.dylib */; };
 		3D0FDD3816ECED5800815B2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8848C1466FAEC0004DADB /* SystemConfiguration.framework */; };
 		3D0FDD3916ECED5800815B2C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48A5B341465F38500BFD7B2 /* Cocoa.framework */; };
-		3D0FDD3B16ECED5800815B2C /* TaskPaperGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4CA1E2914E3209E00741A0F /* TaskPaperGetTodos.applescript */; };
-		3D0FDD3C16ECED5800815B2C /* OmniFocusChangeTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F49723B714E196F9001DB0E3 /* OmniFocusChangeTodo.applescript */; };
-		3D0FDD3D16ECED5800815B2C /* ThingsChangeTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4841A5214DE31E3008FE1C1 /* ThingsChangeTodo.applescript */; };
-		3D0FDD3E16ECED5800815B2C /* OmniFocusGetTaskContext.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4EF4AB8148F16C9005EB608 /* OmniFocusGetTaskContext.applescript */; };
-		3D0FDD3F16ECED5800815B2C /* OmniFocusAddTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7A6B114802747003ECB15 /* OmniFocusAddTodos.applescript */; };
-		3D0FDD4016ECED5800815B2C /* OmniFocusGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7A6B214802747003ECB15 /* OmniFocusGetTodos.applescript */; };
-		3D0FDD4116ECED5800815B2C /* AdiumSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E808147CCFFF00815B66 /* AdiumSetStatusAvailable.applescript */; };
-		3D0FDD4216ECED5800815B2C /* AdiumSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E809147CCFFF00815B66 /* AdiumSetStatusBusy.applescript */; };
-		3D0FDD4316ECED5800815B2C /* SkypeSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E803147CCFE200815B66 /* SkypeSetStatusAvailable.applescript */; };
-		3D0FDD4416ECED5800815B2C /* SkypeSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E804147CCFE200815B66 /* SkypeSetStatusBusy.applescript */; };
-		3D0FDD4516ECED5800815B2C /* iChatSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7FE147CCFD400815B66 /* iChatSetStatusAvailable.applescript */; };
-		3D0FDD4616ECED5800815B2C /* iChatSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7FF147CCFD400815B66 /* iChatSetStatusBusy.applescript */; };
-		3D0FDD4716ECED5800815B2C /* ThingsGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7F8147CCD3E00815B66 /* ThingsGetTodos.applescript */; };
-		3D0FDD4816ECED5800815B2C /* ThingsAddTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7F5147CCBD100815B66 /* ThingsAddTodo.applescript */; };
 		3D0FDD4916ECED5800815B2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48A5B3D1465F38500BFD7B2 /* InfoPlist.strings */; };
 		3D0FDD4A16ECED5800815B2C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F48A5B431465F38500BFD7B2 /* Credits.rtf */; };
 		3D0FDD4B16ECED5800815B2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48A5B491465F38600BFD7B2 /* MainMenu.xib */; };
@@ -476,7 +477,6 @@
 		F481A37C14FDA3CC00AAF2E8 /* HistoryWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F481A37B14FDA3CC00AAF2E8 /* HistoryWindowController.xib */; };
 		F483D62214FC10EC00634F9C /* MSSearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F483D62114FC10EC00634F9C /* MSSearchFieldCell.m */; };
 		F483D62614FC12AD00634F9C /* MSSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = F483D62514FC12AC00634F9C /* MSSearchField.m */; };
-		F4841A5414DE3207008FE1C1 /* ThingsChangeTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4841A5214DE31E3008FE1C1 /* ThingsChangeTodo.applescript */; };
 		F488A13414B0D08700E9E25A /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = F488A13314B0D08700E9E25A /* NS(Attributed)String+Geometrics.m */; };
 		F48A5B351465F38500BFD7B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48A5B341465F38500BFD7B2 /* Cocoa.framework */; };
 		F48A5B3F1465F38500BFD7B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48A5B3D1465F38500BFD7B2 /* InfoPlist.strings */; };
@@ -505,7 +505,6 @@
 		F4C1E9DD151C0B990070D3BE /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = F4C1E9DB151C0B990070D3BE /* note.png */; };
 		F4C2D6B315349B14003BAD16 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C2D6B015349B14003BAD16 /* AboutWindow.xib */; };
 		F4C2D6B415349B14003BAD16 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4C2D6B215349B14003BAD16 /* AboutWindowController.m */; };
-		F4CA1E2B14E320F400741A0F /* TaskPaperGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4CA1E2914E3209E00741A0F /* TaskPaperGetTodos.applescript */; };
 		F4CE90C3155B463E0014FD9C /* pullOutBackgroundClip.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CE90C2155B463E0014FD9C /* pullOutBackgroundClip.png */; };
 		F4D439C4146B2C67005EA5F9 /* OverviewTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D439C3146B2C66005EA5F9 /* OverviewTableCellView.m */; };
 		F4D439D8146ED4A9005EA5F9 /* EggTimerCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D439D7146ED4A9005EA5F9 /* EggTimerCounterView.m */; };
@@ -516,7 +515,6 @@
 		F4DC456B14E43F68003BAC41 /* IdleTime.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DC456A14E43F68003BAC41 /* IdleTime.m */; };
 		F4DC456E14E43FBA003BAC41 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DC456D14E43FBA003BAC41 /* CoreFoundation.framework */; };
 		F4DC457014E43FD4003BAC41 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DC456F14E43FD4003BAC41 /* IOKit.framework */; };
-		F4DE90AB14E19A5400A9D9CD /* OmniFocusChangeTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F49723B714E196F9001DB0E3 /* OmniFocusChangeTodo.applescript */; };
 		F4E2F2C714FB302100700D09 /* lightswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E2F2C614FB302100700D09 /* lightswitch.png */; };
 		F4E2F2C914FB302B00700D09 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E2F2C814FB302B00700D09 /* gear.png */; };
 		F4E2F2CD14FB30F100700D09 /* sync.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E2F2CC14FB30F100700D09 /* sync.png */; };
@@ -524,17 +522,7 @@
 		F4E41247151ADA1300444C12 /* notes-button-yellow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E41244151ADA1300444C12 /* notes-button-yellow-down.png */; };
 		F4E41248151ADA1300444C12 /* notes-button-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E41245151ADA1300444C12 /* notes-button-yellow.png */; };
 		F4E41249151ADA1300444C12 /* notes-close.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E41246151ADA1300444C12 /* notes-close.png */; };
-		F4E7A6B71480331F003ECB15 /* OmniFocusAddTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7A6B114802747003ECB15 /* OmniFocusAddTodos.applescript */; };
-		F4E7A6B81480331F003ECB15 /* OmniFocusGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7A6B214802747003ECB15 /* OmniFocusGetTodos.applescript */; };
 		F4E7E7DC147C8FD800815B66 /* ScriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E7DB147C8FD800815B66 /* ScriptManager.m */; };
-		F4E7E7F7147CCC8100815B66 /* ThingsAddTodo.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7F5147CCBD100815B66 /* ThingsAddTodo.applescript */; };
-		F4E7E7FA147CCD5100815B66 /* ThingsGetTodos.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7F8147CCD3E00815B66 /* ThingsGetTodos.applescript */; };
-		F4E7E80C147CDD1200815B66 /* AdiumSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E808147CCFFF00815B66 /* AdiumSetStatusAvailable.applescript */; };
-		F4E7E80D147CDD1200815B66 /* AdiumSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E809147CCFFF00815B66 /* AdiumSetStatusBusy.applescript */; };
-		F4E7E80E147CDD1200815B66 /* SkypeSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E803147CCFE200815B66 /* SkypeSetStatusAvailable.applescript */; };
-		F4E7E80F147CDD1200815B66 /* SkypeSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E804147CCFE200815B66 /* SkypeSetStatusBusy.applescript */; };
-		F4E7E810147CDD1200815B66 /* iChatSetStatusAvailable.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7FE147CCFD400815B66 /* iChatSetStatusAvailable.applescript */; };
-		F4E7E811147CDD1200815B66 /* iChatSetStatusBusy.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4E7E7FF147CCFD400815B66 /* iChatSetStatusBusy.applescript */; };
 		F4E7E815147D685000815B66 /* ChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E814147D685000815B66 /* ChatController.m */; };
 		F4E7E830147DB44900815B66 /* TaskSyncController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E82F147DB44900815B66 /* TaskSyncController.m */; };
 		F4E7E834147DB60D00815B66 /* MonitorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E7E833147DB60D00815B66 /* MonitorWindowController.m */; };
@@ -544,7 +532,6 @@
 		F4E884931466FB340004DADB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E884921466FB340004DADB /* QuartzCore.framework */; };
 		F4E884A3146713F20004DADB /* OverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E884A1146713F20004DADB /* OverviewViewController.m */; };
 		F4E884A4146713F20004DADB /* OverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E884A2146713F20004DADB /* OverviewViewController.xib */; };
-		F4EF4ABF148F1C26005EB608 /* OmniFocusGetTaskContext.applescript in Resources */ = {isa = PBXBuildFile; fileRef = F4EF4AB8148F16C9005EB608 /* OmniFocusGetTaskContext.applescript */; };
 		F4F9E939153380BC00BA461A /* speaker.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9E938153380BC00BA461A /* speaker.png */; };
 		F4FBA62414BB8A06000A44FF /* ribbon8.png in Resources */ = {isa = PBXBuildFile; fileRef = F4FBA62314BB8A06000A44FF /* ribbon8.png */; };
 /* End PBXBuildFile section */
@@ -592,6 +579,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00861CBA2161F503002CC518 /* TaskPaperGetTodos.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TaskPaperGetTodos.ascript; sourceTree = "<group>"; };
+		00861CBB2161F503002CC518 /* ThingsAddTodo.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThingsAddTodo.ascript; sourceTree = "<group>"; };
+		00861CBC2161F503002CC518 /* OmniFocusChangeTodob.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OmniFocusChangeTodob.ascript; sourceTree = "<group>"; };
+		00861CBD2161F503002CC518 /* OmniFocusGetTaskContext.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OmniFocusGetTaskContext.ascript; sourceTree = "<group>"; };
+		00861CBE2161F503002CC518 /* SkypeSetStatusBusy.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SkypeSetStatusBusy.ascript; sourceTree = "<group>"; };
+		00861CBF2161F503002CC518 /* SkypeSetStatusAvailable.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SkypeSetStatusAvailable.ascript; sourceTree = "<group>"; };
+		00861CC02161F503002CC518 /* AdiumSetStatusBusy.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdiumSetStatusBusy.ascript; sourceTree = "<group>"; };
+		00861CC12161F503002CC518 /* OmniFocusChangeTodo.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OmniFocusChangeTodo.ascript; sourceTree = "<group>"; };
+		00861CC22161F503002CC518 /* iChatSetStatusBusy.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iChatSetStatusBusy.ascript; sourceTree = "<group>"; };
+		00861CC32161F503002CC518 /* ThingsGetTodos.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThingsGetTodos.ascript; sourceTree = "<group>"; };
+		00861CC42161F503002CC518 /* OmniFocusGetTodos.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OmniFocusGetTodos.ascript; sourceTree = "<group>"; };
+		00861CC52161F503002CC518 /* OmniFocusAddTodos.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OmniFocusAddTodos.ascript; sourceTree = "<group>"; };
+		00861CC62161F503002CC518 /* ThingsChangeTodo.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ThingsChangeTodo.ascript; sourceTree = "<group>"; };
+		00861CC72161F503002CC518 /* iChatSetStatusAvailable.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iChatSetStatusAvailable.ascript; sourceTree = "<group>"; };
+		00861CC82161F503002CC518 /* AdiumSetStatusAvailable.ascript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdiumSetStatusAvailable.ascript; sourceTree = "<group>"; };
 		3D0FDDE316ECED5800815B2C /* Eggscellent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggscellent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1564E115697BC100D70EBB /* ThingsSyncController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingsSyncController.h; sourceTree = "<group>"; };
 		3D1564E215697BC100D70EBB /* ThingsSyncController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingsSyncController.m; sourceTree = "<group>"; };
@@ -856,7 +858,6 @@
 		F483D62114FC10EC00634F9C /* MSSearchFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSearchFieldCell.m; sourceTree = "<group>"; };
 		F483D62414FC12AC00634F9C /* MSSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSearchField.h; sourceTree = "<group>"; };
 		F483D62514FC12AC00634F9C /* MSSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSearchField.m; sourceTree = "<group>"; };
-		F4841A5214DE31E3008FE1C1 /* ThingsChangeTodo.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = ThingsChangeTodo.applescript; path = Resources/AppleScripts/ThingsChangeTodo.applescript; sourceTree = "<group>"; };
 		F488A13214B0D08700E9E25A /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NS(Attributed)String+Geometrics.h"; path = "Other Sources/Categories/NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
 		F488A13314B0D08700E9E25A /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NS(Attributed)String+Geometrics.m"; path = "Other Sources/Categories/NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
 		F48A5B301465F38500BFD7B2 /* Eggscellent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eggscellent.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -885,7 +886,6 @@
 		F48DB05F14AD230600A22267 /* focus-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "focus-card.png"; sourceTree = "<group>"; };
 		F48DB06614AE3DE300A22267 /* OverviewTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverviewTableRowView.h; path = pomodorable/Views/OverviewTableRowView.h; sourceTree = SOURCE_ROOT; };
 		F48DB06714AE3DE300A22267 /* OverviewTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverviewTableRowView.m; path = pomodorable/Views/OverviewTableRowView.m; sourceTree = SOURCE_ROOT; };
-		F49723B714E196F9001DB0E3 /* OmniFocusChangeTodo.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = OmniFocusChangeTodo.applescript; path = Resources/AppleScripts/OmniFocusChangeTodo.applescript; sourceTree = "<group>"; };
 		F499885B1495A5A000D356DB /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		F499885C1495A5A000D356DB /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		F49988631495A7E600D356DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -906,7 +906,6 @@
 		F4C2D6B015349B14003BAD16 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutWindow.xib; sourceTree = "<group>"; };
 		F4C2D6B115349B14003BAD16 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
 		F4C2D6B215349B14003BAD16 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
-		F4CA1E2914E3209E00741A0F /* TaskPaperGetTodos.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = TaskPaperGetTodos.applescript; path = Resources/AppleScripts/TaskPaperGetTodos.applescript; sourceTree = "<group>"; };
 		F4CE90C2155B463E0014FD9C /* pullOutBackgroundClip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pullOutBackgroundClip.png; sourceTree = "<group>"; };
 		F4D439C2146B2C66005EA5F9 /* OverviewTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverviewTableCellView.h; path = pomodorable/Views/OverviewTableCellView.h; sourceTree = SOURCE_ROOT; };
 		F4D439C3146B2C66005EA5F9 /* OverviewTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverviewTableCellView.m; path = pomodorable/Views/OverviewTableCellView.m; sourceTree = SOURCE_ROOT; };
@@ -930,18 +929,8 @@
 		F4E41244151ADA1300444C12 /* notes-button-yellow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notes-button-yellow-down.png"; sourceTree = "<group>"; };
 		F4E41245151ADA1300444C12 /* notes-button-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notes-button-yellow.png"; sourceTree = "<group>"; };
 		F4E41246151ADA1300444C12 /* notes-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notes-close.png"; sourceTree = "<group>"; };
-		F4E7A6B114802747003ECB15 /* OmniFocusAddTodos.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = OmniFocusAddTodos.applescript; path = Resources/AppleScripts/OmniFocusAddTodos.applescript; sourceTree = "<group>"; };
-		F4E7A6B214802747003ECB15 /* OmniFocusGetTodos.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = OmniFocusGetTodos.applescript; path = Resources/AppleScripts/OmniFocusGetTodos.applescript; sourceTree = "<group>"; };
 		F4E7E7DA147C8FD800815B66 /* ScriptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptManager.h; path = Controllers/ScriptManager.h; sourceTree = "<group>"; };
 		F4E7E7DB147C8FD800815B66 /* ScriptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptManager.m; path = Controllers/ScriptManager.m; sourceTree = "<group>"; };
-		F4E7E7F5147CCBD100815B66 /* ThingsAddTodo.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = ThingsAddTodo.applescript; path = Resources/AppleScripts/ThingsAddTodo.applescript; sourceTree = "<group>"; };
-		F4E7E7F8147CCD3E00815B66 /* ThingsGetTodos.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = ThingsGetTodos.applescript; path = Resources/AppleScripts/ThingsGetTodos.applescript; sourceTree = "<group>"; };
-		F4E7E7FE147CCFD400815B66 /* iChatSetStatusAvailable.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = iChatSetStatusAvailable.applescript; path = Resources/AppleScripts/iChatSetStatusAvailable.applescript; sourceTree = "<group>"; };
-		F4E7E7FF147CCFD400815B66 /* iChatSetStatusBusy.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = iChatSetStatusBusy.applescript; path = Resources/AppleScripts/iChatSetStatusBusy.applescript; sourceTree = "<group>"; };
-		F4E7E803147CCFE200815B66 /* SkypeSetStatusAvailable.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = SkypeSetStatusAvailable.applescript; path = Resources/AppleScripts/SkypeSetStatusAvailable.applescript; sourceTree = "<group>"; };
-		F4E7E804147CCFE200815B66 /* SkypeSetStatusBusy.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = SkypeSetStatusBusy.applescript; path = Resources/AppleScripts/SkypeSetStatusBusy.applescript; sourceTree = "<group>"; };
-		F4E7E808147CCFFF00815B66 /* AdiumSetStatusAvailable.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = AdiumSetStatusAvailable.applescript; path = Resources/AppleScripts/AdiumSetStatusAvailable.applescript; sourceTree = "<group>"; };
-		F4E7E809147CCFFF00815B66 /* AdiumSetStatusBusy.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = AdiumSetStatusBusy.applescript; path = Resources/AppleScripts/AdiumSetStatusBusy.applescript; sourceTree = "<group>"; };
 		F4E7E813147D685000815B66 /* ChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatController.h; sourceTree = "<group>"; };
 		F4E7E814147D685000815B66 /* ChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatController.m; sourceTree = "<group>"; };
 		F4E7E82E147DB44900815B66 /* TaskSyncController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskSyncController.h; sourceTree = "<group>"; };
@@ -955,7 +944,6 @@
 		F4E884A0146713F20004DADB /* OverviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewViewController.h; sourceTree = "<group>"; };
 		F4E884A1146713F20004DADB /* OverviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewViewController.m; sourceTree = "<group>"; };
 		F4E884A2146713F20004DADB /* OverviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverviewViewController.xib; sourceTree = "<group>"; };
-		F4EF4AB8148F16C9005EB608 /* OmniFocusGetTaskContext.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = OmniFocusGetTaskContext.applescript; path = Resources/AppleScripts/OmniFocusGetTaskContext.applescript; sourceTree = "<group>"; };
 		F4F9E938153380BC00BA461A /* speaker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speaker.png; path = Resources/preferences/speaker.png; sourceTree = "<group>"; };
 		F4FBA62314BB8A06000A44FF /* ribbon8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ribbon8.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1018,6 +1006,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00861CB92161F503002CC518 /* AppleScripts */ = {
+			isa = PBXGroup;
+			children = (
+				00861CBA2161F503002CC518 /* TaskPaperGetTodos.ascript */,
+				00861CBB2161F503002CC518 /* ThingsAddTodo.ascript */,
+				00861CBC2161F503002CC518 /* OmniFocusChangeTodob.ascript */,
+				00861CBD2161F503002CC518 /* OmniFocusGetTaskContext.ascript */,
+				00861CBE2161F503002CC518 /* SkypeSetStatusBusy.ascript */,
+				00861CBF2161F503002CC518 /* SkypeSetStatusAvailable.ascript */,
+				00861CC02161F503002CC518 /* AdiumSetStatusBusy.ascript */,
+				00861CC12161F503002CC518 /* OmniFocusChangeTodo.ascript */,
+				00861CC22161F503002CC518 /* iChatSetStatusBusy.ascript */,
+				00861CC32161F503002CC518 /* ThingsGetTodos.ascript */,
+				00861CC42161F503002CC518 /* OmniFocusGetTodos.ascript */,
+				00861CC52161F503002CC518 /* OmniFocusAddTodos.ascript */,
+				00861CC62161F503002CC518 /* ThingsChangeTodo.ascript */,
+				00861CC72161F503002CC518 /* iChatSetStatusAvailable.ascript */,
+				00861CC82161F503002CC518 /* AdiumSetStatusAvailable.ascript */,
+			);
+			name = AppleScripts;
+			path = Resources/AppleScripts;
+			sourceTree = "<group>";
+		};
 		3D1564E515697BCF00D70EBB /* Things */ = {
 			isa = PBXGroup;
 			children = (
@@ -1569,9 +1580,9 @@
 		F48A5B3B1465F38500BFD7B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00861CB92161F503002CC518 /* AppleScripts */,
 				3D9CAB4716D67858004604B6 /* egg_sequences */,
 				3D8EA55315D5A7E100A07915 /* Fonts */,
-				F4E7E7F4147CCB7F00815B66 /* AppleScripts */,
 				F4104BBC147C147B0077D272 /* Audio */,
 				F4104BBA147C14720077D272 /* Images */,
 				F43E823314705F4C00F3B6BB /* initialDefaults.plist */,
@@ -1728,14 +1739,6 @@
 			path = Vendor/tomazAboutWindow;
 			sourceTree = "<group>";
 		};
-		F4CA1E2714E3205C00741A0F /* TaskPaper */ = {
-			isa = PBXGroup;
-			children = (
-				F4CA1E2914E3209E00741A0F /* TaskPaperGetTodos.applescript */,
-			);
-			name = TaskPaper;
-			sourceTree = "<group>";
-		};
 		F4D439DD146EE432005EA5F9 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -1809,17 +1812,6 @@
 			path = Resources/notes;
 			sourceTree = "<group>";
 		};
-		F4E7A6B61480274A003ECB15 /* OmniFocus */ = {
-			isa = PBXGroup;
-			children = (
-				F4EF4AB8148F16C9005EB608 /* OmniFocusGetTaskContext.applescript */,
-				F4E7A6B114802747003ECB15 /* OmniFocusAddTodos.applescript */,
-				F4E7A6B214802747003ECB15 /* OmniFocusGetTodos.applescript */,
-				F49723B714E196F9001DB0E3 /* OmniFocusChangeTodo.applescript */,
-			);
-			name = OmniFocus;
-			sourceTree = "<group>";
-		};
 		F4E7E7D8147C8FB900815B66 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -1829,56 +1821,6 @@
 				F4DC456A14E43F68003BAC41 /* IdleTime.m */,
 			);
 			name = Helpers;
-			sourceTree = "<group>";
-		};
-		F4E7E7F4147CCB7F00815B66 /* AppleScripts */ = {
-			isa = PBXGroup;
-			children = (
-				F4CA1E2714E3205C00741A0F /* TaskPaper */,
-				F4E7E807147CCFF300815B66 /* Adium */,
-				F4E7E802147CCFD900815B66 /* Skype */,
-				F4E7E7FC147CCFBC00815B66 /* iChat */,
-				F4E7E7FB147CCFAF00815B66 /* Things */,
-				F4E7A6B61480274A003ECB15 /* OmniFocus */,
-			);
-			name = AppleScripts;
-			sourceTree = "<group>";
-		};
-		F4E7E7FB147CCFAF00815B66 /* Things */ = {
-			isa = PBXGroup;
-			children = (
-				F4E7E7F5147CCBD100815B66 /* ThingsAddTodo.applescript */,
-				F4E7E7F8147CCD3E00815B66 /* ThingsGetTodos.applescript */,
-				F4841A5214DE31E3008FE1C1 /* ThingsChangeTodo.applescript */,
-			);
-			name = Things;
-			sourceTree = "<group>";
-		};
-		F4E7E7FC147CCFBC00815B66 /* iChat */ = {
-			isa = PBXGroup;
-			children = (
-				F4E7E7FE147CCFD400815B66 /* iChatSetStatusAvailable.applescript */,
-				F4E7E7FF147CCFD400815B66 /* iChatSetStatusBusy.applescript */,
-			);
-			name = iChat;
-			sourceTree = "<group>";
-		};
-		F4E7E802147CCFD900815B66 /* Skype */ = {
-			isa = PBXGroup;
-			children = (
-				F4E7E803147CCFE200815B66 /* SkypeSetStatusAvailable.applescript */,
-				F4E7E804147CCFE200815B66 /* SkypeSetStatusBusy.applescript */,
-			);
-			name = Skype;
-			sourceTree = "<group>";
-		};
-		F4E7E807147CCFF300815B66 /* Adium */ = {
-			isa = PBXGroup;
-			children = (
-				F4E7E808147CCFFF00815B66 /* AdiumSetStatusAvailable.applescript */,
-				F4E7E809147CCFFF00815B66 /* AdiumSetStatusBusy.applescript */,
-			);
-			name = Adium;
 			sourceTree = "<group>";
 		};
 		F4E7E812147D673500815B66 /* Chat */ = {
@@ -2033,20 +1975,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0FDD3B16ECED5800815B2C /* TaskPaperGetTodos.applescript in Resources */,
-				3D0FDD3C16ECED5800815B2C /* OmniFocusChangeTodo.applescript in Resources */,
-				3D0FDD3D16ECED5800815B2C /* ThingsChangeTodo.applescript in Resources */,
-				3D0FDD3E16ECED5800815B2C /* OmniFocusGetTaskContext.applescript in Resources */,
-				3D0FDD3F16ECED5800815B2C /* OmniFocusAddTodos.applescript in Resources */,
-				3D0FDD4016ECED5800815B2C /* OmniFocusGetTodos.applescript in Resources */,
-				3D0FDD4116ECED5800815B2C /* AdiumSetStatusAvailable.applescript in Resources */,
-				3D0FDD4216ECED5800815B2C /* AdiumSetStatusBusy.applescript in Resources */,
-				3D0FDD4316ECED5800815B2C /* SkypeSetStatusAvailable.applescript in Resources */,
-				3D0FDD4416ECED5800815B2C /* SkypeSetStatusBusy.applescript in Resources */,
-				3D0FDD4516ECED5800815B2C /* iChatSetStatusAvailable.applescript in Resources */,
-				3D0FDD4616ECED5800815B2C /* iChatSetStatusBusy.applescript in Resources */,
-				3D0FDD4716ECED5800815B2C /* ThingsGetTodos.applescript in Resources */,
-				3D0FDD4816ECED5800815B2C /* ThingsAddTodo.applescript in Resources */,
 				3D0FDD4916ECED5800815B2C /* InfoPlist.strings in Resources */,
 				3D0FDD4A16ECED5800815B2C /* Credits.rtf in Resources */,
 				3D0FDD4B16ECED5800815B2C /* MainMenu.xib in Resources */,
@@ -2223,25 +2151,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4CA1E2B14E320F400741A0F /* TaskPaperGetTodos.applescript in Resources */,
-				F4DE90AB14E19A5400A9D9CD /* OmniFocusChangeTodo.applescript in Resources */,
-				F4841A5414DE3207008FE1C1 /* ThingsChangeTodo.applescript in Resources */,
-				F4EF4ABF148F1C26005EB608 /* OmniFocusGetTaskContext.applescript in Resources */,
-				F4E7A6B71480331F003ECB15 /* OmniFocusAddTodos.applescript in Resources */,
-				F4E7A6B81480331F003ECB15 /* OmniFocusGetTodos.applescript in Resources */,
-				F4E7E80C147CDD1200815B66 /* AdiumSetStatusAvailable.applescript in Resources */,
-				F4E7E80D147CDD1200815B66 /* AdiumSetStatusBusy.applescript in Resources */,
-				F4E7E80E147CDD1200815B66 /* SkypeSetStatusAvailable.applescript in Resources */,
-				F4E7E80F147CDD1200815B66 /* SkypeSetStatusBusy.applescript in Resources */,
-				F4E7E810147CDD1200815B66 /* iChatSetStatusAvailable.applescript in Resources */,
-				F4E7E811147CDD1200815B66 /* iChatSetStatusBusy.applescript in Resources */,
-				F4E7E7FA147CCD5100815B66 /* ThingsGetTodos.applescript in Resources */,
-				F4E7E7F7147CCC8100815B66 /* ThingsAddTodo.applescript in Resources */,
 				F48A5B3F1465F38500BFD7B2 /* InfoPlist.strings in Resources */,
 				F48A5B451465F38500BFD7B2 /* Credits.rtf in Resources */,
 				F48A5B4B1465F38600BFD7B2 /* MainMenu.xib in Resources */,
 				F48A5BA11466F7D300BFD7B2 /* PanelController.xib in Resources */,
 				F4E884A4146713F20004DADB /* OverviewViewController.xib in Resources */,
+				00861CCA2161F504002CC518 /* ThingsAddTodo.ascript in Resources */,
+				00861CCC2161F504002CC518 /* OmniFocusGetTaskContext.ascript in Resources */,
 				F4D439E3146EE46A005EA5F9 /* MASPreferencesWindow.xib in Resources */,
 				F4D439EA146EEB48005EA5F9 /* GeneralPreferencesViewController.xib in Resources */,
 				F4ABA51E14702AEB0071F286 /* ShortcutsPreferencesViewController.xib in Resources */,
@@ -2252,20 +2168,24 @@
 				F4391DD9148B08550051CACC /* WelcomeWindowController.xib in Resources */,
 				F422AFC914AA6FBA002A20ED /* pom_count-off.png in Resources */,
 				F422AFD114AA6FBA002A20ED /* ribbon2.png in Resources */,
+				00861CD62161F504002CC518 /* iChatSetStatusAvailable.ascript in Resources */,
 				F422AFD214AA6FBA002A20ED /* ribbon3.png in Resources */,
 				F422AFD314AA6FBA002A20ED /* ribbon4.png in Resources */,
 				F422AFD414AA6FBA002A20ED /* ribbon5.png in Resources */,
 				F422AFD514AA6FBA002A20ED /* ribbon6.png in Resources */,
+				00861CCB2161F504002CC518 /* OmniFocusChangeTodob.ascript in Resources */,
 				F422AFD614AA6FBA002A20ED /* ribbon7.png in Resources */,
 				F422AFD714AA6FBA002A20ED /* ribbon1.png in Resources */,
 				F422AFD814AA6FBA002A20ED /* ribbonOverdue.png in Resources */,
 				F43937F114AA8D1500FA1244 /* button-start-down.png in Resources */,
+				00861CD52161F504002CC518 /* ThingsChangeTodo.ascript in Resources */,
 				F43937F214AA8D1500FA1244 /* button-start.png in Resources */,
 				F43937F314AA8D1500FA1244 /* header-with_point.png in Resources */,
 				F43937F614AA8EEA00FA1244 /* footer.png in Resources */,
 				F43937F914AA8F7C00FA1244 /* button-add-down.png in Resources */,
 				F43937FA14AA8F7C00FA1244 /* button-add.png in Resources */,
 				F43937FD14AA909300FA1244 /* prefs-down.png in Resources */,
+				00861CD12161F504002CC518 /* iChatSetStatusBusy.ascript in Resources */,
 				F43937FE14AA909300FA1244 /* prefs.png in Resources */,
 				F439380114AA913500FA1244 /* button-stop-down.png in Resources */,
 				F439380214AA913500FA1244 /* button-stop.png in Resources */,
@@ -2281,6 +2201,7 @@
 				F480844114E71CE900D7B291 /* close.png in Resources */,
 				F47AE3A114EEDBDD00DFAE19 /* status.png in Resources */,
 				F4E2F2C714FB302100700D09 /* lightswitch.png in Resources */,
+				00861CD42161F504002CC518 /* OmniFocusAddTodos.ascript in Resources */,
 				F4E2F2C914FB302B00700D09 /* gear.png in Resources */,
 				F4E2F2CD14FB30F100700D09 /* sync.png in Resources */,
 				F4E2F2CF14FB30F700700D09 /* tools.png in Resources */,
@@ -2294,6 +2215,7 @@
 				F45A4BE4152F70BA0010AB45 /* complete_80sAlarmClock.mp3 in Resources */,
 				F45A4BE5152F70BA0010AB45 /* complete_carDoor.mp3 in Resources */,
 				F45A4BE6152F70BA0010AB45 /* complete_cashRegister.mp3 in Resources */,
+				00861CCE2161F504002CC518 /* SkypeSetStatusAvailable.ascript in Resources */,
 				F45A4BE7152F70BA0010AB45 /* complete_cuckoo.mp3 in Resources */,
 				F45A4BE8152F70BA0010AB45 /* complete_eggTimer.mp3 in Resources */,
 				F45A4BE9152F70BA0010AB45 /* complete_firebell.mp3 in Resources */,
@@ -2320,6 +2242,7 @@
 				3DFBE63F15A26CA30006ABB2 /* button-add@2x.png in Resources */,
 				3DFBE64015A26CA30006ABB2 /* button-minus-down@2x.png in Resources */,
 				3DFBE64115A26CA30006ABB2 /* button-minus@2x.png in Resources */,
+				00861CD72161F504002CC518 /* AdiumSetStatusAvailable.ascript in Resources */,
 				3DFBE64215A26CA30006ABB2 /* button-plus-down@2x.png in Resources */,
 				3DFBE64315A26CA30006ABB2 /* button-plus@2x.png in Resources */,
 				3DFBE64415A26CA30006ABB2 /* button-start-down@2x.png in Resources */,
@@ -2352,18 +2275,23 @@
 				3DD633B4160F8CA7001F9661 /* button-resume-down.png in Resources */,
 				3DD633B5160F8CA7001F9661 /* button-resume-down@2x.png in Resources */,
 				3DD633B6160F8CA7001F9661 /* button-resume.png in Resources */,
+				00861CC92161F504002CC518 /* TaskPaperGetTodos.ascript in Resources */,
 				3DD633B7160F8CA7001F9661 /* button-resume@2x.png in Resources */,
 				3D2932A516D0102E0072F829 /* egg.png in Resources */,
 				3D2932A616D0102E0072F829 /* egg@2x.png in Resources */,
+				00861CD32161F504002CC518 /* OmniFocusGetTodos.ascript in Resources */,
 				3DF9349D16D021C500A98287 /* status@2x.png in Resources */,
+				00861CD02161F504002CC518 /* OmniFocusChangeTodo.ascript in Resources */,
 				3DAA1E4416D408C200287DA8 /* egg_count-1.png in Resources */,
 				3DAA1E4516D408C200287DA8 /* egg_count-1@2x.png in Resources */,
+				00861CD22161F504002CC518 /* ThingsGetTodos.ascript in Resources */,
 				3DAA1E4616D408C200287DA8 /* egg_count-2.png in Resources */,
 				3DAA1E4716D408C200287DA8 /* egg_count-2@2x.png in Resources */,
 				3DAA1E4816D408C200287DA8 /* egg_count-3.png in Resources */,
 				3DAA1E4916D408C200287DA8 /* egg_count-3@2x.png in Resources */,
 				3DAA1E4A16D408C200287DA8 /* egg_count-4.png in Resources */,
 				3DAA1E4B16D408C200287DA8 /* egg_count-4@2x.png in Resources */,
+				00861CCD2161F504002CC518 /* SkypeSetStatusBusy.ascript in Resources */,
 				3DAA1E4C16D408C200287DA8 /* egg_count-5.png in Resources */,
 				3DAA1E4D16D408C200287DA8 /* egg_count-5@2x.png in Resources */,
 				3DAA1E4E16D408C200287DA8 /* egg_count-6.png in Resources */,
@@ -2379,6 +2307,7 @@
 				3D47206716D99651009204E2 /* 4_egg_nudge_1.aif in Resources */,
 				3D47206816D99651009204E2 /* 6_egg_nudge_2.aif in Resources */,
 				3D47206916D99651009204E2 /* 8_egg_nudge_3.aif in Resources */,
+				00861CCF2161F504002CC518 /* AdiumSetStatusBusy.ascript in Resources */,
 				3D47206A16D99651009204E2 /* 10_egg_hatch.aif in Resources */,
 				3DD73F8D16E3299600B6D994 /* CalendarPreferencesViewController.xib in Resources */,
 				3D88F86D16EA42FB00265052 /* calendar.png in Resources */,
@@ -2692,6 +2621,7 @@
 				CODE_SIGN_ENTITLEMENTS = helper/helper.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helper/helper-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2712,6 +2642,7 @@
 				CODE_SIGN_ENTITLEMENTS = helper/helper.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helper/helper-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2779,6 +2710,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pomodorable/Eggscellent.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/pomodorable/Vendor\"",
@@ -2801,6 +2733,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pomodorable/Eggscellent.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/pomodorable/Vendor\"",

@@ -1,0 +1,14 @@
+tell application "OmniFocus"
+    tell default document
+        tell (flattened tasks whose id is equal to "✅")
+            set name to "✅"
+        end tell
+        repeat with anItem in (flattened tasks whose id is equal to "✅")
+          if ✅
+            mark complete anItem
+          else
+            mark incomplete anItem
+          end if
+        end repeat
+    end tell
+end tell
