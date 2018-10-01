@@ -82,7 +82,9 @@
         today = [calendar dateFromComponents:nowComponents];
         
         //create predicate
-        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(completed == nil && removed == 0) OR (completed > %@ AND removed == 0)", today, nil];
+        NSTimeInterval a_day = 24*60*60;
+        NSDate *tomorrow = [NSDate dateWithTimeIntervalSinceNow:a_day];
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"(completed == nil && removed == 0) OR (completed > %@ AND removed == 0)", tomorrow, nil];
         arrayController.fetchPredicate = predicate;
         
         //set target and action of double click to this class
