@@ -25,7 +25,7 @@
 
 - (BOOL)sync
 {
-    if([[NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.culturedcode.things"] count] == 0)
+    if([[NSRunningApplication runningApplicationsWithBundleIdentifier:@"com.culturedcode.ThingsMac"] count] == 0)
         return NO;
     
     if(!self.importedIDs)

@@ -1949,6 +1949,14 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Monocle Society LLC";
+				TargetAttributes = {
+					3DD61E56158A4A54001947B1 = {
+						DevelopmentTeam = LC268KRQ95;
+					};
+					F48A5B2F1465F38500BFD7B2 = {
+						DevelopmentTeam = LC268KRQ95;
+					};
+				};
 			};
 			buildConfigurationList = F48A5B2A1465F38500BFD7B2 /* Build configuration list for PBXProject "Eggscellent" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2621,7 +2629,7 @@
 				CODE_SIGN_ENTITLEMENTS = helper/helper.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LC268KRQ95;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helper/helper-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2642,7 +2650,7 @@
 				CODE_SIGN_ENTITLEMENTS = helper/helper.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LC268KRQ95;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helper/helper-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -2710,7 +2718,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Pomodorable/Eggscellent.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LC268KRQ95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/pomodorable/Vendor\"",
@@ -2720,6 +2728,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "pomodorable/Eggscellent-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amuratech.eggscellent.osx;
 				PRODUCT_NAME = Eggscellent;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -2733,7 +2742,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pomodorable/Eggscellent.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LC268KRQ95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/pomodorable/Vendor\"",
@@ -2743,6 +2752,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "CONFIGURATION_$(CONFIGURATION)";
 				INFOPLIST_FILE = "pomodorable/Eggscellent-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amuratech.eggscellent.osx;
 				PRODUCT_NAME = Eggscellent;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
